@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+	background: #0999ff;
+}
+button{
+	position: absolute;
+	cursor: pointer;
+	border: 0;
+	background: transparent;
+	border-radius: 50px;
+
+}
+img{
+	width: 40px;
+	height: 40px;
+}
+.dark{
+	background: #000;
+}
+
+#container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1{
+	margin-bottom: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#ideas{
+	font-weight: bold;
+	background: cyan;
+	color:#000;
+	font-family: Calibri;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 4px;
+
+}
+
+
+@media screen and (max-width: 800px) {
+#ideas{
+	width: 90%;
+	padding: 10px;
+	}
+	button{
+	right: 0;
+	}
+
+	h1{
+		font-family: Calibri;
+	}
+}
+
+
+
+@media screen and (min-width: 801px) {
+h1{
+font-family: Verdana;
+}
+#ideas{
+	width: 60%;
+		padding:20px;
+}
+
+button{
+		bottom: 0;
+	left: 0;
+}
+}
